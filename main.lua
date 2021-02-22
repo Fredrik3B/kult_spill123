@@ -206,6 +206,7 @@ function love.mousepressed(x, y, button)
             if mouse_x >= 100 and mouse_x <= 290 then
                 if mouse_y >= 100 and mouse_y <= 150 then
                     sel_up:play()
+                    love.timer.sleep(0.2)
                     music_song = music[math.random(1,4)]
                     music_song:play()
                     gamestate = "play"
@@ -219,6 +220,7 @@ function love.mousepressed(x, y, button)
                     ad_sfx:play()
                 elseif mouse_y >= 360 and mouse_y <= 410 then
                     menu_sfx:play()
+                    love.timer.sleep(0.3)
                     love.event.quit()
                 end
             end
@@ -229,6 +231,7 @@ function love.mousepressed(x, y, button)
             local mouse_y = love.mouse.getY()
             if mouse_x >= window_width/2-80 and mouse_x <= window_width/2+80 then
                 if mouse_y >= window_height/2-30 and mouse_y <= window_height/2+60 then
+                    menu_sfx:play()
                     gamestate = "start"
                 end
             end
