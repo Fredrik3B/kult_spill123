@@ -19,8 +19,9 @@ Skriv inn love kult_spill123.love hver gang du skal spille i en terminal
 eller få love til å opne alle .love filer  
 
 ## Fremtidige oppdateringer
-- [ ] flere bokser
-- [ ] mer vanskelig
+- [ ] Leaderboard  
+- [ ] Flere bokser
+- [ ] Mer vanskelig
 - [ ] Sjold (booster)
 - [ ] Skytevåpen (booster)
 - [ ] Flere skins
@@ -28,5 +29,5 @@ eller få love til å opne alle .love filer
 - [ ] Spillet kjefter på deg (ala pygame1)  
 
 ## Bugs
-__Sikkert mange bugs i spillet, ikke mitt problem__
+__Sikkert mange bugs i spillet, ikke mitt problem__  
 Lag ett issue med beskrivelse av bugen og når den skjedde
