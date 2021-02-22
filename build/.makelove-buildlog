@@ -1,0 +1,12 @@
+[
+    {
+        "version": "0.1",
+        "build_time": "Mon, 22 Feb 2021 22:05:12 +0100",
+        "targets": [
+            "win32",
+            "win64",
+            "appimage"
+        ],
+        "completed": true
+    }
+]
